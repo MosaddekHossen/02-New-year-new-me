@@ -49,13 +49,109 @@ header {
     border: 0;
 }
 
+/* failures-section  */
 .failures-section {
     display: flex;
     align-items: center;
     gap: 100px;
-    padding: 150px;
+    padding: 100px 200px;
 }
 
 .failures-section img {
-    background-color: ;
+    background-image: url("./images/person.png");
+}
+
+.failures-section h2 {
+    display: flex;
+    width: 288px;
+    flex-direction: column;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contraty-des {
+    display: flex;
+    width: 416px;
+    flex-direction: column;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.check-sign li {
+    list-style: none;
+}
+
+.fa-solid {
+    color: #16D887;
+}
+
+/* My Plans section */
+.My-Plans {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.icon-des {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.icon-box {
+    padding-bottom: 100px;
+}
+
+.Plans {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.icon-de {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Positive section */
+.bg {
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    border-radius: 8px;
+    background-image: url("./images/watch.png");
+    background-blend-mode: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+}
+
+.bg-section {
+    margin-bottom: 100px;
+}
+
+.bg-head {
+    display: flex;
+    width: 459px;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 0px 0px 50px;
+}
+
+.primary {
+    margin: 20px 0 50px 50px;
 }
