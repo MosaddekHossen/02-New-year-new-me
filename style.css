@@ -23,11 +23,13 @@ header {
     justify-content: flex-end;
 
 }
-.head{
+
+.head {
     width: 700px;
     padding-right: 15%;
 
 }
+
 .head h1 {
     color: #151414;
     font-size: 65px;
@@ -211,34 +213,39 @@ h4 {
     font-size: 20px;
     font-weight: 600;
 }
-.email{
+
+.email {
     color: #FFF;
-font-size: 16px;
-font-weight: 400;
-padding: 20px 0 0 0;
-display: block;
-text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0 0 0;
+    display: block;
+    text-decoration: none;
 }
-.Phone{
+
+.Phone {
     color: #FFF;
-font-size: 16px;
-font-weight: 400;
-padding: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0;
 
 }
-.icon-on{    
+
+.icon-on {
     gap: 20px;
     text-align: center;
 }
-.icon{
+
+.icon {
     display: flex;
     justify-content: left;
     gap: 20px;
 }
+
 /* Next */
-.fa-solid{
+.fa-solid {
     padding: 20px 10px 0 0;
     color: #16D887;
     font-size: 20px;
-    
+
 }
